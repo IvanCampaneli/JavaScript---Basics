@@ -1,3 +1,3 @@
-let nome = "jodsfgjodsfjodsjods"
+let nome = "teste"
 
 console.log(nome);
