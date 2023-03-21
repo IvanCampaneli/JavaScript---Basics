@@ -1,0 +1,61 @@
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 2rem;
+    font-size: 1.8rem;
+    color: #F8F0E3;
+    position: relative;
+}
+
+.menu ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 1rem;
+    left: 25%;
+    width: 0%;
+    height: 0.2rem;
+    background: var(--off-white);
+    transition: all 300ms ease-in-out;
+}
+
+.menu ul li a:hover::after {
+    width: 50%;
+    left: 25%;
+}
+
+.menu h1 {
+    font-size: 2.3rem;
+    color: #F8F0E3;
+}
+
+.menu h1 a {
+    font-size: 2.3rem;
+    color: inherit;
+}
+
+.menu {
+    background: var(--primary-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 0.3rem solid rgb(255, 255, 255);
+}
+
+.menu-spacing {
+    height: 65px;
+}

@@ -1,0 +1,21 @@
+.main-bg {
+    background-image: url('../img/main-img.svg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--beige);
+}
+
+.main-content {
+    max-width: 100%;
+    margin: 0 auto; 
+    padding: var(--gap);
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.beige-bg {
+    background: var(--beige);
+    color: var(--primary-color);
+}
