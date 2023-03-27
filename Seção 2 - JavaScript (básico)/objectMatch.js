@@ -1,5 +1,6 @@
 let num1 = 9.49;;
 
+//Math = biblioteca de matemática do Js
 //let num2= Math.floor(num1);// arredonda o número para baixo
 //let num2= Math.ceil(num1);// arredonda o número para cima
 //let num2= Math.round(num1);// arredonda o número para o mais próximo. ex: 9.49= 9 | 9.50 ou 9.51 = arredonda para cima | ou seja, da metade para cima se arredondo para cima
